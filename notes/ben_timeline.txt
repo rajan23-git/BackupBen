@@ -1,0 +1,9 @@
+This is Ben's planned timeline for the rest of the semester
+last updated: 2/8/23
+
+2/17 - fully functioning read_serial.py which handles arbitrary number of arduino inputs and timestamps and sends (no rtc)
+3/10 - save all data from read_serial.py to file system on the field station
+3/31 - fully functioning cronjob tasks with restart on boot up and restart when script is interrupted
+4/7 - unit test read_serial.py
+4/14 - unit test cronjob and rtc
+4/17 - ready for integration tests with other components
